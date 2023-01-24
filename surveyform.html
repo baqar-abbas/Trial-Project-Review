@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Survey Form</title>
+    <link href="styles.css" rel="stylesheet"/>
+    
+    </head>
+
+<body>
+<!-- <h1>This is Heading 1</h1> -->
+
+<header id="header1">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+</header>
+
+<div>
+    <article id="ar1">
+    <form id="survey-form">
+    <label for="name" id="name-label" style="color: white;font-size: 20px;">Name</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter your Name" style="width:650px;height:30px;font-size:18px;color: rgb(10, 10, 10);"><br><br>
+  <label for="email" id="email-label" style="color: white;font-size: 20px;">Email</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter your Email" style="width:650px;height:30px;font-size:18px;color: rgb(10, 10, 10);"><br><br>
+
+  <label for="number" id="number-label" style="color: white;font-size: 20px;">Age(Optional)</label>
+  <input type="number" id="number" name="number" placeholder="93" min="1" max="99" style="width:650px;height:30px;font-size:18px;color: rgb(10, 10, 10);"><br><br>
+
+
+  <label for="dropdown" style="color: white;font-size: 20px;">Which option best describes your current role?</label><br>
+  <select id="dropdown" name="dropdown" style="width:650px;height:30px;font-size:18px;color: rgb(10, 10, 10);">
+    <option value="student">Student</option>
+    <option value="FullTimeJob">Full Time Job</option>
+    <option value="FullTimeLearner">Full Time Learner</option>
+    <option value="Prefernot">Prefer not to say</option>
+    <option value="other">Other</option>
+  </select> <br><br>
+  
+  <label style="color: white;font-size: 20px;">Would you recommend freeCodeCamp to a friend?</label><br><br>
+  <input type="radio" id="recomend" name="recomend" value="Definitely">
+  <label for="recomend" style="color: white;font-size: 20px;">Definitely</label><br>
+  <input type="radio" id="maybe" name="maybe" value="Maybe">
+  <label for="maybe" style="color: white;font-size: 20px;">Maybe</label><br>
+  
+  <input type="radio" id="notsure" name="notsure" value="Notsure">
+  <label for="notsure" style="color: white;font-size: 20px;">Not Sure</label><br><br>
+
+  <label for="dropdown2" style="color: white;font-size: 20px;">What is your favorite feature of freeCodeCamp?</label><br>
+  <select id="dropdown2" name="dropdown2" style="width:650px;height:30px;font-size:18px;color: rgb(10, 10, 10);">
+    <option value="Challenges">Challenges</option>
+    <option value="Projects">Projects</option>
+    <option value="Community">Community</option>
+    <option value="OpenSource">Open Source</option>
+  </select> <br><br>
+
+  <label style="color: white;font-size: 20px;">What would you like to see improved? (Check all that apply)</label><br><br>
+  <input type="checkbox" id="Front" name="Front" value="FrontEndProject">
+  <label for="Front" style="color: white;font-size: 20px;">Front-end Projects</label><br>
+  <input type="checkbox" id="Back" name="Back" value="Back">
+  <label for="Back" style="color: white;font-size: 20px;">Back-end Projects</label><br>
+  <input type="checkbox" id="Data" name="Data" value="Data">
+  <label for="Data" style="color: white;font-size: 20px;">Data Visualization</label><br>
+  <input type="checkbox" id="Challenges" name="Challenges" value="Challenges">
+  <label for="Challenges" style="color: white;font-size: 20px;">Challenges</label><br>
+  <input type="checkbox" id="open" name="open" value="open">
+  <label for="open" style="color: white;font-size: 20px;">Open Source Community</label><br>
+  <input type="checkbox" id="gitter" name="gitter" value="gitter">
+  <label for="gitter" style="color: white;font-size: 20px;">Gitter Help Rooms</label><br>
+  <input type="checkbox" id="videos" name="videos" value="videos">
+  <label for="videos" style="color: white;font-size: 20px;">Videos</label><br>
+  <input type="checkbox" id="city" name="city" value="city">
+  <label for="city" style="color: white;font-size: 20px;">City Meetups</label><br><br>
+
+  <label style="color: white;font-size: 20px;">Any comments or suggestions?</label><br>
+  <textarea name="message" rows="5" cols="63" placeholder="Enter your Name" style="font-size:18px;color: rgb(10, 10, 10);"></textarea>
+  <br><br>
+
+  <button type="button" value="submit" style="width:650px;height:40px;font-size:18px;color: rgb(241, 234, 234);border: none;background-color: rgb(47, 173, 79);">submit</button>
+
+    </form>
+    </article>
+</div>
+
+</body>
+</html>
